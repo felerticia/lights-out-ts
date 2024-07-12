@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Neonderthaw&family=Ultra&display=swap");
+:root {
+  --size: 25px;
+  --blue: #12e7e7;
+  --orange: #fea501;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #212121;
+}
+.App {
+  font-family: "Monoton", cursive;
+  text-align: center;
+  padding-top: calc(var(--size) * 2);
+}

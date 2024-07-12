@@ -1,7 +1,12 @@
 import "./App.css";
+import Title from "./components/Title/Title";
 
 function App() {
-  return <div>Light out</div>;
+  return (
+    <div className="App">
+      <Title />
+    </div>
+  );
 }
 
 export default App;
