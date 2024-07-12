@@ -1,5 +1,7 @@
 export const createGrid = (size: number) => {
-  const grid = Array.from({ length: size }, () => Array(size).fill(0));
+  const grid: number[][] = Array.from({ length: size }, () =>
+    Array(size).fill(0)
+  );
 
   const toggle = (x: number, y: number) => {
     const directions = [
